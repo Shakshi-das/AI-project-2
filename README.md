@@ -1,2 +1,2 @@
-# AI-project-2
+# AI-project
 Movie recommendation System with Python
