@@ -8,13 +8,16 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 #data collection and pre-processing
 
-#loading data from csv file
+#loading data from csv file to apandas dataframe
 df = pd.read_csv('Data/movies.csv')
+
+#printing the first 5 rows of the dataframe
 df.head()
 
-#printing the first 5 rows
+#number of rows and columns in dataframe
+movies_data.shape
 
-# Setting up some parameters for the workbook
+#selecting relevant features for recommendations
 
 pd.set_option('display.max_rows', 500)
 pd.options.display.max_columns = None
