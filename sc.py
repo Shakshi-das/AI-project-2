@@ -18,6 +18,7 @@ df.head()
 movies_data.shape
 
 #selecting relevant features for recommendations
+selected_features = ['genres','keywords','runtime','cast','director']
 
 pd.set_option('display.max_rows', 500)
 pd.options.display.max_columns = None
