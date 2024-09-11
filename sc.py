@@ -1,3 +1,4 @@
+
 #importing dependencies
 import numpy as np
 import pandas as pd
@@ -19,6 +20,7 @@ movies_data.shape
 
 #selecting relevant features for recommendations
 selected_features = ['genres','keywords','runtime','cast','director']
+print(selected_features)
 
-pd.set_option('display.max_rows', 500)
-pd.options.display.max_columns = None
+#replacing null values with null string
+
