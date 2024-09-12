@@ -23,4 +23,5 @@ selected_features = ['genres','keywords','runtime','cast','director']
 print(selected_features)
 
 #replacing null values with null string
-
+for feauture in selected_features:
+  movies_data[features] = movies_data[features].fillna('')
