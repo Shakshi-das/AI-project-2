@@ -25,3 +25,9 @@ print(selected_features)
 #replacing null values with null string
 for feauture in selected_features:
   movies_data[features] = movies_data[features].fillna('')
+
+#combining all the 5 selected features
+combined_features= movies_data['genres']+' '+movies_data['keywords']+' '+movies_data['runtime']+' '+movies_data['cast']+' '+movies_data['director']
+print(combined_features)
+
+#converting text data to feature vectors
