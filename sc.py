@@ -31,3 +31,13 @@ combined_features= movies_data['genres']+' '+movies_data['keywords']+' '+movies_
 print(combined_features)
 
 #converting text data to feature vectors
+ vectorizer = TfidVectorizer()
+
+feature_vectors = vectorizer-fir_transform(combined_features)
+print(feature_vectors)
+
+#cosine similarity
+
+#getting the similarity score using cosine similarity
+similarity = cosine_similarity(feature_vectors)
+print(similarity)
