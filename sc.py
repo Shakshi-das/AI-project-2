@@ -43,4 +43,12 @@ similarity = cosine_similarity(feature_vectors)
 print(similarity)
 
 #getting the movie name from user
-movie_name= input("")
+movie_name= input("Enter your favourite movie name:")
+
+#creating a list with all the movies names given in the dataset
+list_of_all_titles= movies_data['title'].tolist()
+print(list_of_all_titles)
+
+#finding the close match for the movie name given by the user
+find_close_match= difflib.get_close_matches(movie_name, list_of_all_tiltes)
+print(find_close_match)
