@@ -52,3 +52,6 @@ print(list_of_all_titles)
 #finding the close match for the movie name given by the user
 find_close_match= difflib.get_close_matches(movie_name, list_of_all_tiltes)
 print(find_close_match)
+
+close_match= find_close_match[0]
+print(close_match)
