@@ -41,3 +41,6 @@ print(feature_vectors)
 #getting the similarity score using cosine similarity
 similarity = cosine_similarity(feature_vectors)
 print(similarity)
+
+#getting the movie name from user
+movie_name= input("")
