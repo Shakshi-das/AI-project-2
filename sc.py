@@ -55,3 +55,7 @@ print(find_close_match)
 
 close_match= find_close_match[0]
 print(close_match)
+
+ #finding the index of the movie with title
+index_of_the_movie= movies_data.title == close_match)]['index'].values[0]
+print(index_of_the_movie)
