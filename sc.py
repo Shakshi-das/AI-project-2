@@ -63,3 +63,11 @@ print(index_of_the_movie)
 #getting a list of similar movies
 similarity_score= list(enumerate(similarity[index_of_the_movie]))
 print(similarity_score)
+
+len(similarity_score)
+
+#sorting based on similarity score
+sorted_similar_movies= sorted(similarity_score, key= lambda x:x[1], reverse= True)
+print(sorted_similar_movies)
+
+#print the name of similar movies based on index
