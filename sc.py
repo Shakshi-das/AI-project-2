@@ -60,3 +60,6 @@ print(close_match)
 index_of_the_movie= movies_data[movies_data.title == close_match]['index'].values[0]
 print(index_of_the_movie)
 
+#getting a list of similar movies
+similarity_score= list(enumerate(similarity[index_of_the_movie]))
+print(similarity_score)
