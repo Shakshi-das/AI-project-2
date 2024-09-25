@@ -71,3 +71,4 @@ sorted_similar_movies= sorted(similarity_score, key= lambda x:x[1], reverse= Tru
 print(sorted_similar_movies)
 
 #print the name of similar movies based on index
+print("Movies suggested for you \n")
