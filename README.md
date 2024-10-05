@@ -1,3 +1,3 @@
 # AI-project
-Movie recommendation System with Python
+Movie recommendation System in Python
 with ML models
